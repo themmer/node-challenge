@@ -1,25 +1,25 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist/
-/tmp/
+/ui/dist/
+/ui/tmp/
 
 # dependencies
-/bower_components/
-/node_modules/
+/ui/bower_components/
+/ui/node_modules/
 
 # misc
-/.env*
-/.pnp*
-/.sass-cache
-/connect.lock
-/coverage/
-/libpeerconnection.log
-/npm-debug.log*
-/testem.log
-/yarn-error.log
+/ui/.env*
+/ui/.pnp*
+/ui/.sass-cache
+/ui/connect.lock
+/ui/coverage/
+/ui/libpeerconnection.log
+/ui/npm-debug.log*
+/ui/testem.log
+/ui/yarn-error.log
 
 # ember-try
-/.node_modules.ember-try/
-/bower.json.ember-try
-/package.json.ember-try
+/ui/.node_modules.ember-try/
+/ui/bower.json.ember-try
+/ui/package.json.ember-try
