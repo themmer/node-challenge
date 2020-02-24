@@ -1,0 +1,17 @@
+{
+  "name": "advanced",
+  "version": "1.0.0",
+  "description": "slack chat integration",
+  "main": "chat.js",
+  "scripts": {
+    "start": "node chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "slack",
+    "node"
+  ],
+  "author": "Tim Hemmer",
+  "license": "ISC"
+}

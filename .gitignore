@@ -19,6 +19,11 @@
 /ui/testem.log
 /ui/yarn-error.log
 
+/beginner/node_modules
+/intermediate/node_modules
+/advanced/node_modules
+
+
 # ember-try
 /ui/.node_modules.ember-try/
 /ui/bower.json.ember-try

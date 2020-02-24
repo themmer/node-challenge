@@ -1,0 +1,24 @@
+{
+  "name": "intermediate",
+  "version": "1.0.0",
+  "description": "Proxy Server to UI",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "reload": "nodemon DEBUG=myapp:* npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "node",
+    "server"
+  ],
+  "author": "Tim Hemmer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

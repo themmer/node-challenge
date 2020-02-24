@@ -1,0 +1,15 @@
+{
+  "name": "beginner",
+  "version": "1.0.0",
+  "description": "Parse CSV Workshop",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "parse"
+  ],
+  "author": "Tim Hemmer",
+  "license": "ISC"
+}
