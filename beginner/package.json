@@ -11,5 +11,8 @@
     "parse"
   ],
   "author": "Tim Hemmer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.8.6"
+  }
 }

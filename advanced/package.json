@@ -1,17 +1,20 @@
 {
   "name": "advanced",
   "version": "1.0.0",
-  "description": "slack chat integration",
-  "main": "chat.js",
+  "description": "jwt token authentication",
+  "main": "jwt.js",
   "scripts": {
-    "start": "node chat.js",
+    "start": "node jwt.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "chat",
-    "slack",
+    "token",
+    "jwt",
     "node"
   ],
   "author": "Tim Hemmer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

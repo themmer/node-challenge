@@ -1,24 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-/ui/dist/
-/ui/tmp/
-
-# dependencies
-/ui/bower_components/
-/ui/node_modules/
-
-# misc
-/ui/.env*
-/ui/.pnp*
-/ui/.sass-cache
-/ui/connect.lock
-/ui/coverage/
-/ui/libpeerconnection.log
-/ui/npm-debug.log*
-/ui/testem.log
-/ui/yarn-error.log
-
 /beginner/node_modules
 /intermediate/node_modules
 /advanced/node_modules
