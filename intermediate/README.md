@@ -17,14 +17,21 @@ http://localhost:3000/
 
 Use a generator to keep things simple:
 - https://expressjs.com/en/starter/generator.html
-for a view it says to use `npx express-generator`, I would recommend `npx express-generator --view=hbs`
+- You only need to run this `npx express-generator --view=hbs`
 
-Same thing with the step after
-`express --view=hbs myapp`
+In package.json, replace the value of "scripts" with below
+```
+    "start": "node app.js",
+    "reload": "nodemon DEBUG=myapp:* npm start"
+```
+Once added you can run auto reload: `npm run reload`
 
-Auto reload has been setup already `npm run reload`
+Adding endpoings (routes):
+https://expressjs.com/en/starter/basic-routing.html
 
- If you are looking for more things to do you can find out how to serve content within this tutorial:
- - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+Serving Static Files:
+https://expressjs.com/en/starter/static-files.html
 
+Extra things to read if time:
+https://expressjs.com/en/starter/faq.html
 
