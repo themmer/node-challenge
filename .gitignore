@@ -2,6 +2,8 @@
 
 /beginner/node_modules
 /intermediate/node_modules
+/intermediate/solution/node_modules
+/intermediate/solution/myapp/node_modules
 /advanced/node_modules
 
 

@@ -4,9 +4,8 @@
   "description": "Proxy Server to UI",
   "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "reload": "nodemon DEBUG=myapp:* npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "reload": "nodemon server.js"
   },
   "keywords": [
     "proxy",

@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/themmer/.nvm/versions/node/v10.12.0/bin/node /Users/themmer/.nvm/versions/node/v10.12.0/bin/yarn reload
+
+PATH: 
+  /Users/themmer/.nvm/versions/node/v10.12.0/bin:/Users/themmer/bin:/usr/bin:/usr/local/bin:/Users/themmer/installs/fly:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands/:/bin:/bin:/usr/local/bin:/Users/themmer/Library/Android/sdk/emulator:/Users/themmer/Library/Android/sdk/tools:/Users/themmer/Library/Android/sdk/tools/bin:/Users/themmer/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/themmer/dev/node-challenge/intermediate/solution/myapp/package.json: Unexpected token } in JSON at position 156
+      at JSON.parse (<anonymous>)
+      at /Users/themmer/.nvm/versions/node/v10.12.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/themmer/.nvm/versions/node/v10.12.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/themmer/.nvm/versions/node/v10.12.0/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "myapp",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node app.js",
+      "reload": "nodemon DEBUG=myapp:* npm start",
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "hbs": "~4.0.4",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
