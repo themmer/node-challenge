@@ -2,11 +2,10 @@
   "name": "intermediate",
   "version": "1.0.0",
   "description": "Proxy Server to UI",
-  "main": "proxy.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node proxy.js",
-    "reload": "nodemon proxy.js",
-    "reloadSolution": "nodemon ./solution/proxy.js",
+    "start": "node app.js",
+    "reload": "nodemon DEBUG=myapp:* npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
