@@ -5,7 +5,8 @@
   "main": "proxy.js",
   "scripts": {
     "start": "node proxy.js",
-    "reload": "nodemon DEBUG=myapp:* npm start",
+    "reload": "nodemon proxy.js",
+    "reloadSolution": "nodemon ./solution/proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

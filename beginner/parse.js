@@ -1,13 +1,9 @@
 const parse = require('csv-parse/lib/sync');
-const assert = require('assert');
+const fs = require('fs');
 
-const input = `
-"key_1","key_2"
-"value 1","value 2"
-`;
 
-const records = parse(input, {
-  columns: true,
-  skip_empty_lines: true
-});
-console.log(records);
+console.log();
+console.log('Gender:');
+console.log('Male ', Number(0 * 100).toFixed(2), '%');
+console.log('Female ', Number(0 * 100).toFixed(2), '%');
+console.log('Other ', Number(0 * 100).toFixed(2), '%');

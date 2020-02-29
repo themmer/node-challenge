@@ -4,6 +4,8 @@
   "description": "Parse CSV Workshop",
   "main": "parse.js",
   "scripts": {
+    "start": "node parse.js",
+    "reload": "nodemon DEBUG=myapp:* npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +15,10 @@
   "author": "Tim Hemmer",
   "license": "ISC",
   "dependencies": {
+    "csv": "^5.3.1",
     "csv-parse": "^4.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
