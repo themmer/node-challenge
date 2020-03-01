@@ -5,9 +5,3 @@
 /intermediate/solution/node_modules
 /intermediate/solution/myapp/node_modules
 /advanced/node_modules
-
-
-# ember-try
-/ui/.node_modules.ember-try/
-/ui/bower.json.ember-try
-/ui/package.json.ember-try
