@@ -56,3 +56,4 @@ E.G. in the solutions/public folder there is a dog.jpg: http://localhost:3000/im
 Extra things to read if time:
 https://expressjs.com/en/starter/faq.html
 
+If you are stuck and looking for hints there is a working solution in the solutions folder

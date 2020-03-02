@@ -23,17 +23,13 @@ npm package for csv parsing (already included in package.json)
 https://csv.js.org/parse/
 https://github.com/adaltas/node-csv
 
-CSV File provided or find/create your own
+Details
+- CSV File provided or find/create your own
 ./marvel_characters_info.csv
-
-The goal would be to be able to read the csv file in
+- The goal would be to be able to read the csv file in
 Make sure it is read into an object
-
-Output the first object in the list from the csv
-
-Challenge yourself to output a stat like total count and Gender count  / percentage
-
-Remember to use your resources. We have people helping, other members, and searching on the web for node samples
-
-If you are stuck and looking for hints there is a working solution: solution.js
+- Output the first object in the list from the csv
+- Challenge yourself to output a stat like total count and Gender count  / percentage
+- Remember to use your resources. We have people helping, other members, and searching on the web for node samples
+- If you are stuck and looking for hints there is a working solution: solution.js
 

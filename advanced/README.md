@@ -1,4 +1,4 @@
-** Create a web server endpoint to call another web service (proxy) to return fetched data to the client
+Create a web server endpoint to call another web service (proxy) to return fetched data to the client
 
 Go to advanced directory in git checkout and get npm dependencies
 `npm install`
@@ -22,3 +22,5 @@ If you have free time check out faker.js and create an endpoing that utlizes fak
 https://github.com/marak/Faker.js/
 
 Hit the endpoint multiple times to see the responses change. This is useful for prototyping or working ahead of the server when you have an api contract
+
+If you are stuck and looking for hints there is a working solution in the solutions folder
