@@ -51,7 +51,7 @@ https://expressjs.com/en/starter/static-files.html
 The code has been already added if you did the express generator
 Find an image online and save it to the public/images folder in `myapp`
 Try to get the image resource
-E.G. in solutions there is a dog.jpg: http://localhost:3000/images/dog.jpg
+E.G. in the solutions/public folder there is a dog.jpg: http://localhost:3000/images/dog.jpg
 
 Extra things to read if time:
 https://expressjs.com/en/starter/faq.html

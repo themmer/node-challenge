@@ -1,21 +1,22 @@
 {
   "name": "advanced",
   "version": "1.0.0",
-  "description": "jwt token authentication",
-  "main": "jwt.js",
+  "description": "Proxy Server",
+  "main": "",
   "scripts": {
-    "start": "node jwt.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon myapp/bin/www",
+    "reloadSolution": "nodemon solution/myapp/bin/www"
   },
   "keywords": [
-    "token",
-    "jwt",
+    "server",
+    "proxy",
     "node"
   ],
   "author": "Tim Hemmer",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
