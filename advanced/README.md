@@ -19,7 +19,7 @@ Docs on Http for node:
 
 If you have free time check out faker.js and create an endpoing that utlizes faker.js. The endpoint would return a json payload using fake data that will change on each call.
 
-https://github.com/marak/Faker.js/
+- https://github.com/marak/Faker.js/
 
 Hit the endpoint multiple times to see the responses change. This is useful for prototyping or working ahead of the server when you have an api contract
 
