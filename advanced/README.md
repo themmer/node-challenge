@@ -17,7 +17,7 @@ Requirement:
 Docs on Http for node:
 - https://nodejs.org/api/http.html#http_http_request_options_callback
 
-If you have free time check out faker.js and create an endpoing that utlizes faker.js. The endpoint would return a json payload using fake data that will change on each call.
+If you have free time check out faker.js and create an endpoint that utlizes faker.js. The endpoint would return a json payload using fake data that will change on each call.
 
 - https://github.com/marak/Faker.js/
 
