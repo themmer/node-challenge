@@ -1,6 +1,6 @@
 Build a node.js script that parses a csv (comma separated values)
 
-CSV parse npm dependency already added to project
+CSV parse npm dependency already added to package.json dependencies
 
 - https://csv.js.org/parse
 - https://csv.js.org/parse/api/sync

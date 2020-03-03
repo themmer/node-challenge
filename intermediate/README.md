@@ -1,7 +1,7 @@
-Master will have the solution. Develop branch is where the workshop will start
-`git checkout develop`
+Create a web server with service endpoints that return data using express.js
 
 # Requires node install
+Go to `advanced` directory in git checkout and get npm dependencies
 `npm install`
 
 Post install of express npm package:

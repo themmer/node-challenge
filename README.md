@@ -33,12 +33,12 @@ https://code.visualstudio.com/docs/introvideos/basics
 
 https://www.postman.com/downloads
 
+## Extra resources
 
-
-
-
-
-
-
-
-
+- Node Intro: https://blog.codeship.com/node-js-tutorial
+- Postman: https://www.geeksforgeeks.org/introduction-postman-api-development
+- Nodemon: https://alligator.io/workflow/nodemon
+- package.json: https://npm.github.io/using-pkgs-docs/package-json/using-a-packagejson.html
+- npm (package.json too): https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm
+- Express.js Intro: https://medium.com/@jaeger.rob/introduction-to-nodes-express-js-db5617047150
+- Logging in Node: https://millermedeiros.github.io/mdoc/examples/node_api/doc/stdio.html
